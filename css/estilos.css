@@ -3,6 +3,7 @@
 
 body
 {
+    background: black;
     color: red;
     text-align: left;
     font-family: "Courier";
@@ -15,15 +16,27 @@ body
 
 #cabecera
 {
-    background: #33a;
+    background: url("../imagenes/dragon.png.png") no-repeat center center;
     box-shadow: 0px 2px 50px 0px rgba(0,0,0,0.75) ;
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
 
 }
 
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
 #container
 {
     width: 70%;
